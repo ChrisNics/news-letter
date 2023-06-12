@@ -1,6 +1,6 @@
 # Frontend Mentor - Age calculator app solution
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,24 +19,27 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### The challenge
 
-Users should be able to:
+Your challenge is to build out this newsletter form and get it looking as close to the design as possible.
 
-- View an age in years, months, and days after submitting a valid date through the form
-- Receive validation errors if:
-  - Any field is empty when the form is submitted
-  - The day number is not between 1-31
-  - The month number is not between 1-12
-  - The year is in the future
-  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- **Bonus**: See the age numbers animate to their final number when the form is submitted
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your users should be able to:
+
+-Add their email and submit the form
+-See a success message with their email after successfully submitting the form
+-ee form validation messages if:
+-The field is left empty
+-The email address is not formatted correctly
+-View the optimal layout for the interface depending on their device's screen size
+-See hover and focus states for all interactive elements on the page
+-Download the project and go through the README.md file. This will provide further details about the project and help you get set up.
+
+Want some support on the challenge? Join our community and ask questions in the help channel.
 
 ### Screenshot
 
-![](https://res.cloudinary.com/dj6gipxny/image/upload/v1685071106/Screenshot_2023-05-26_at_11-16-00_Screenshot_ycwbg1.png)
-![](https://res.cloudinary.com/dj6gipxny/image/upload/v1685071132/Screenshot_2023-05-26_at_11-16-29_Screenshot_xuin6s.png)
-![](https://res.cloudinary.com/dj6gipxny/image/upload/v1685071139/Screenshot_2023-05-26_at_11-17-10_Screenshot_yuatw9.png)
+![](https://res.cloudinary.com/dj6gipxny/image/upload/v1686560267/Screenshot_2023-06-12_at_16-56-42_Frontend_Mentor_Newsletter_sign-up_form_with_success_message_dubvfg.png)
+![](https://res.cloudinary.com/dj6gipxny/image/upload/v1686560267/Screenshot_2023-06-12_at_16-56-31_Frontend_Mentor_Newsletter_sign-up_form_with_success_message_tnas1a.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -48,8 +51,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/agecalculatorapp-m7gl9RkU1n)
-- Live Site URL: [Add live site URL here](https://age-calculator-app-chrisnics.vercel.app/)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-WPAv8eQD5F)
+- Live Site URL: [Add live site URL here](https://news-letter-sable.vercel.app/)
 
 ## My process
 
@@ -57,11 +60,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - HTML
 - CSS
-- React
-- Mantine
-- Tailwind
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+- Vanilla Javascript
 
 ## Author
 
