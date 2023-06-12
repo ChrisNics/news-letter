@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  </head>
+  <body class="text-dark-slate-grey">
+    <main class="bg-dark-slate-grey min-h-screen">
+      <div
+        id="primary"
+        class="container mx-auto min-h-screen flex lg:items-center justify-center bg-white lg:bg-transparent"
+      >
+        <div
+          class="rounded-2xl bg-white flex flex-col lg:flex-row lg:max-w-4xl lg:max-h-min lg:p-3"
+        >
+          <img
+            id="dynamicImage"
+            src="/assets/images/illustration-sign-up-mobile.svg"
+            class="lg:order-2"
+          />
+          <div class="px-5 py-7 flex flex-col gap-y-6">
+            <h3 class="text-4xl font-bold">Stay updated!</h3>
+            <p class="max-w-sm lg:max-w-full">
+              Join 60,000+ product managers receiving monthly updates on:
+            </p>
+            <div class="flex flex-col gap-y-3">
+              <div class="flex gap-x-3 max-w-xs lg:max-w-full">
+                <img src="/assets/images/icon-success.svg" class="h-4" />
+                <p>Product discovery and building what matters</p>
+              </div>
+              <div class="flex gap-x-3 max-w-xs lg:max-w-full">
+                <img src="/assets/images/icon-success.svg" class="h-4" />
+                <p>Measuring to ensure updates are a success</p>
+              </div>
+              <div class="flex gap-x-3 max-w-xs lg:max-w-full">
+                <img src="/assets/images/icon-success.svg" class="h-4" />
+                <p>And much more!</p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-y-2">
+              <div class="flex justify-between">
+                <label for="email" class="text-sm font-semibold text-charcoal-grey"
+                  >Email address</label
+                >
+                <h6 class="hidden text-tomato text-xs font-semibold" id="error-message">
+                  Valid email required
+                </h6>
+              </div>
+              <input
+                type="text"
+                placeholder="email@company.com"
+                id="email"
+                class="p-3 pl-5 rounded-md border border-gray-300"
+              />
+            </div>
+            <button
+              id="submit-button"
+              class="p-4 bg-dark-slate-grey text-white rounded-lg font-semibold hover:bg-gradient-to-r hover:from-tomato hover:to-orange-400 lg:p-3"
+            >
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="secondary"
+        class="hidden min-h-screen container mx-auto flex items-center justify-center"
+      >
+        <div
+          class="bg-white min-h-screen pt-40 px-10 pb-10 rounded-lg flex flex-col gap-y-5 justify-between lg:min-h-max lg:pt-10 lg:max-w-md"
+        >
+          <div class="flex flex-col gap-y-7">
+            <img src="/assets/images/icon-success.svg" class="w-12" />
+            <h3 class="text-4xl font-bold max-w-xs">Thanks for subscribing!</h3>
+            <p>
+              A confirmation emamil has been sent to
+              <span class="font-semibold" id="user-email">ash@loremcompany.com.</span> Please open
+              it and click the button inside to confirm your subscription.
+            </p>
+          </div>
+          <button
+            id="dismiss-button"
+            class="p-4 bg-dark-slate-grey text-white rounded-lg font-semibold hover:bg-gradient-to-r hover:from-tomato hover:to-orange-400 w-full lg:p-3"
+          >
+            Dismiss message
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <script src="/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error {
+  background: rgb(247, 85, 85);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 85, 85, 0.19789922805059523) 90%,
+    rgba(247, 85, 85, 0.2) 100%
+  );
+  border: 1px solid hsl(4, 100%, 67%) !important;
+}
+
+.error::placeholder {
+  color: hsl(4, 100%, 67%);
+}
