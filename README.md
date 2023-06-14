@@ -1,6 +1,6 @@
-# Frontend Mentor - Age calculator app solution
+# Frontend Mentor - Email newsletter solution
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Email newsletter challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
